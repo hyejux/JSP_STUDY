@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+--><!-- The contents of this file will be loaded for each web application --><Context>
+
+    <!-- Default set of monitored resources. If one of these changes, the    -->
+    <!-- web application will be reloaded.                                   -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>WEB-INF/tomcat-web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+    
+
+    <!-- JDBC 커넥션 풀 설정 -->
+    <Resource name="jdbc/MySQLDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="20"               <!-- 최대 커넥션 수 -->
+              maxIdle="10"                <!-- 최대 유휴 커넥션 수 -->
+              minIdle="5"                 <!-- 최소 유휴 커넥션 수 -->
+              maxWaitMillis="10000"       <!-- 커넥션을 얻기 위한 최대 대기 시간 (밀리초) -->
+              username="your_username"    <!-- MySQL 사용자명 -->
+              password="your_password"    <!-- MySQL 비밀번호 -->
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/your_database?useSSL=false&serverTimezone=UTC" <!-- MySQL URL -->
+              validationQuery="SELECT 1"  <!-- 커넥션 유효성 검사 쿼리 -->
+              testOnBorrow="true"         <!-- 커넥션을 대여할 때 유효성 검사 수행 -->
+              testOnReturn="false"        <!-- 커넥션을 반납할 때 유효성 검사 수행 -->
+              testWhileIdle="true"        <!-- 유휴 커넥션 검사 활성화 -->
+              timeBetweenEvictionRunsMillis="30000" <!-- 커넥션 검사 주기 (밀리초) -->
+              minEvictableIdleTimeMillis="60000"    <!-- 커넥션 유휴 시간 -->
+              removeAbandoned="true"
+              removeAbandonedTimeout="60"
+              logAbandoned="true"/>
+    
+    <!-- Uncomment this to disable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="" />
+    -->
+</Context>

@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+액션태그 : JSP 페이지에서 특별한 기능들을 제공해줌 ex)
+ 
+커스텀 태그 : JSP 를 확장 시켜주는 기능  (개발자가 직접 개발)
+ 
+태그 라이브러리 : 자주 사용되는 것들을 표준화 해둔 태그 라이브러리 ex) JSTL 
+출처: https://hyejux.tistory.com/716 [개발일지📝:티스토리]
+</body>
+</html>

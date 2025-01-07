@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSP 요소 공부 </title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<div> JSP 요소 공부를 공부해보자 </div>
+<button type="button" onclick = "location.href='JSP_ex1.jsp'"> 스크립트릿 (Sciptlet) </button>
+<button type="button" onclick = "location.href='JSP_ex2.jsp'"> 디렉티브 (Directive) </button>
+<button type="button" onclick = "location.href='JSP_ex3.jsp'"> JSP 내장 객체 </button>
+<form action="JSP_ex3.jsp" method="post">
+	<input type="text" id="name" name="name">
+</form>
+
+</body>
+</html>

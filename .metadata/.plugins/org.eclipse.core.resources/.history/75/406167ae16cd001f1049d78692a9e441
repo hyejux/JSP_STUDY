@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 액션 태그 소개 </title>
+<link rel="stylesheet" type="text/css" href="css/style.css"> </link>
+</head>
+<body>
+
+<div class="info">
+	<div> 액션태그 : JSP 페이지에서 특별한 기능들을 제공해줌  </div>
+	<div> forward | userBean | include | param | 등등... </div>
+</div>
+
+<div class="point">  </div>
+	<jsp:forward page="index.jsp"/>
+
+
+ 
+커스텀 태그 : JSP 를 확장 시켜주는 기능  (개발자가 직접 개발)
+ 
+태그 라이브러리 : 자주 사용되는 것들을 표준화 해둔 태그 라이브러리 ex) JSTL 
+
+<button type="button" class="btn1"  onclick = "location.href='index.jsp'"> < 뒤로가기 </button>
+</body>
+</html>

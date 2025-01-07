@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 표현 언어 소개   </title>
+</head>
+<body>
+	<div class="info">
+	<div> EL (Expression Language) 표현언어란? </div>
+	<div> JSP 에서 객체를 출력할때 앞에서 쓰던 스크립팅을 사용하지 않는 기술! </div>
+	<div> <%-- <% %> --%> 이거를 <%-- ${} --%> 로 쓸수 있다! </div>
+	<div> request, session , application  범위에서 속성 값을 자동으로 찾는다. </div>
+	</div>
+	
+	<% String idEL = request.getParameter("id"); %>
+	
+	<div> 이건 스크립팅을 사용했어요 : <%= idEL %>  </div>
+	
+	<div> 이건 EL 을 사용했어요 : ${param.id} </div>
+	
+	<hr/>
+	
+	<div> EL 에는 내장객체가 있어요 </div>
+	<div> pageScope | requestScope | sessionScope | param 등등...</div>
+	
+	
+	
+	
+	
+	
+	<%-- <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> --%>
+	<div> EL 을 사용하려면 상단에 </div>
+
+	
+</body>
+</html>

@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 기본 객체 소개 </title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css"> </link>
+<body>
+<div class="info">
+<p> JSP 내장 객체에 대해 알아보자 </p>
+<p> JSP 파일 내에 객체를 생성하지 않고도 바로 사용할 수 있는 객체야. </p>
+<div> 브라우저가 WAS 에게 Servlet 요청을 보내면  </div>
+<div> WAS 는 아래 두 객체를 생성해 </div>
+<hr/>
+<div class="point"> HttpServletRequest </div>
+<div> http 의 request  정보를 서블릿에게 전달하기 위해 사용 </div>
+<div class="point"> HttpServletResponse </div>
+<div> 생성되어 서블릿에게 전달되고 이 객체를 통해 응답메세지를 보냄</div>
+<div> 위 객체들 말고도 다양한 객체들이 존재해 </div>
+<div class='point'> out | session | application | pageContext.. 등등 </div>
+<div> 모든 객체들은 주요 메서드들이 있는데 알아두는게 좋다! </div>
+<hr/> 
+
+<%
+System.out.println("<h1>안녕!<h1>");
+out.print("<h1>안녕!<h1>");
+out.print("<h2>반가워</h2>");
+%>
+
+</div>
+</body>
+</html>

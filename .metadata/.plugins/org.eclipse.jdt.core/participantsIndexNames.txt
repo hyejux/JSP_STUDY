@@ -1,0 +1,19 @@
+INDEX VERSION 1.134
+C:\Users\hyeju\test-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3474872247.index
+\JSPPractice1\src\main\java
+C:\Users\hyeju\test-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2625899571.index
+\JSPPractice2\src\main\java
+C:\Users\hyeju\test-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4210297932.index
+\JSPProject\src\main\java
+C:\Users\hyeju\test-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2410788354.index
+\qwer\src\main\java
+C:\Users\hyeju\test-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2099026840.index
+\JSPPractice2\src\main\java
+C:\Users\hyeju\test-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4209360194.index
+\TestProject\src\main\java
+C:\Users\hyeju\test-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1223765451.index
+\JSPPractice1\src\main\java
+C:\Users\hyeju\test-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3089489023.index
+\JSPTestProject\src\main\java
+C:\Users\hyeju\test-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\356292488.index
+\JSPProject\src\main\java

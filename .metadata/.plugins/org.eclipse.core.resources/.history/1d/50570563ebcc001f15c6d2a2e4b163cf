@@ -1,0 +1,28 @@
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.util.Scanner;
+
+public class Insert {
+    public static void main(String[] args) {
+        // MySQL 접속 정보
+        String url = "jdbc:mysql://localhost:3306/spring";  // your_database_name을 실제 데이터베이스 이름으로 바꿔주세요.
+        String uid = "spring";  // MySQL 사용자명
+        String upw = "spring";  // MySQL 비밀번호
+
+        ResultSet rs = null; // 결과를 조회해서 처리할 result set 객체가 필요하다.
+        pstmt.executeQuery(); //select 는 쿼리 구문으로 실행
+
+        //전진하면서 확인
+        //1행에 대한 프로그램 처리
+        //getString(),getInt() ~~~ 등을 이용해서 테이터 읽어드림
+
+         String id  = rs.getString("id");
+         String pw = rs.getString("pw");
+         int ages = rs.getInt("age");
+         String email = rs.getString("email"); // 읽을 컬럼명
+        
+        
+    }
+}
