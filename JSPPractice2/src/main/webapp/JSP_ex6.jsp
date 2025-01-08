@@ -32,6 +32,6 @@
 		<c:if test="true"> 무조건 실행됨 </c:if>
 		<c:if test="${age >= 30}"> 30살이 넘었구나.. </c:if>
 
-
+<button type="button" class="btn1"  onclick = "location.href='index.jsp'"> < 뒤로가기 </button>
 </body>
 </html>

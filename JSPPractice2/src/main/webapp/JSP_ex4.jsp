@@ -61,7 +61,7 @@
 	
 	<%-- <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> --%>
 	<div> EL 을 사용하려면 상단에 </div>
-<button type="button" class="btn1"  onclick = "location.href='index.jsp'"> < 뒤로가기 </button>
+	<button type="button" class="btn1"  onclick = "location.href='index.jsp'"> < 뒤로가기 </button>
 	
 </body>
 </html>

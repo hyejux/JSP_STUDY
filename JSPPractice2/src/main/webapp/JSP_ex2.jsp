@@ -21,9 +21,11 @@
 
 
 <div> ------------ 여기서부터는 include 디렉티브 연습 ----------- </div>
-<div>  jsp_ex1.jsp 의 페이지 내용이 바로 삽입되는 걸 볼 수 있다.  </div>
+<div>  jsp_ex1.jsp 의 페이지 내용이 바로 삽입되는 걸 볼 수 있다. (컴파일 시점 | 정적 포함) </div>
 
 <%@include file="JSP_ex1.jsp" %>
+
+
 
 </body>
 </html>

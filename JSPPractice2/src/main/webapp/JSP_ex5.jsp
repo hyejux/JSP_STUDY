@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +12,7 @@
 
 	<div class="info">
 		<div> 액션태그 : JSP 페이지에서 특별한 기능들을 제공해줌  </div>
-		<div> forward | userBean | include | param | getProperty | setProperty 등등... </div>
+		<div> forward | userBean | include (동적 포함 | 런타임 시점) | param | getProperty | setProperty 등등... </div>
 	</div>
 
 	<div class="point"> forward  </div>
